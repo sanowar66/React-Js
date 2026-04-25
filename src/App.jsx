@@ -22,7 +22,7 @@ const [counter,setCounter]=useState(0);
           <span className="quantity">{counter}</span>
           <button onClick={increment}>+1</button>
         </div>
-        <p>Total Order: {counter}</p>
+        <p>Total Count: {counter}</p>
       </div>
     </div>
   );
