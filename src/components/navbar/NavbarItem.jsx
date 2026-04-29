@@ -1,9 +1,5 @@
-export const NavbarItem = () => {
+export const NavbarItem = ({title}) => {
     return (
-        <div className="para"> 
-            <div>
-                <p>Just practice  how to build folder and how to import and export other folder </p>
-            </div>
-        </div>   
+        <li>{title}</li>
     );
 }
