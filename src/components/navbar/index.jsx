@@ -1,2 +1,3 @@
 export * from './Navbar';
-export { NavbarItem } from "./NavbarItem";
+export * from './NavbarItem'
+

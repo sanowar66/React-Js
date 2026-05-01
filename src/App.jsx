@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./components/Footer";
+import{ Footer} from "./components/footer";
 import { Navbar,NavbarItem } from "./components/navbar";
 
 function App() {
