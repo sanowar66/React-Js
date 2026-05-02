@@ -1,0 +1,8 @@
+.flex-gap-3{
+ display: flex;
+ gap: 10px;
+}
+.lime{
+    color:rgb(67, 21, 194);
+    background-color: rgb(200, 228, 208);
+}
