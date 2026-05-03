@@ -1,0 +1,27 @@
+.product-card {
+  background-color: rgb(140, 160, 95);
+  padding: 10px;
+  border-radius: 20px;
+}
+.cart-btn1 {
+  background-color: rgb(243, 8, 8);
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-right: 16px;
+}
+.cart-btn2 {
+  background-color: rgb(5, 241, 56);
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-right: 16px;
+}
+
+.text {
+  margin: 0 10px; /* left-right space */
+}

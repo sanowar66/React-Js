@@ -1,0 +1,11 @@
+.products {
+  flex-direction: column;
+  text-align: center;
+}
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 16px;
+
+}
