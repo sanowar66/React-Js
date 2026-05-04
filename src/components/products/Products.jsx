@@ -19,6 +19,10 @@ export const Products = () => {
     }
     setCart([...cart, product]);
   };
+  const RemoveProductCart = (productId) => {
+  setCart(cart.filter((cartItem) => cartItem.id !== productId))
+  };
+  
 
   return (
     <div className="products">
@@ -29,7 +33,9 @@ export const Products = () => {
           <ProductCard
             key={product.id}
             product={product}
+            isAddedtoCart={productExistInCart(product.id)}
             addToCart={addProductToCart}
+            removeFromCart={RemoveProductCart}
           />
         ))}
       </div>

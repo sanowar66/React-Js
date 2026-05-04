@@ -1,10 +1,13 @@
 import "./ProductCard.css";
 
-export const ProductCard = ({ product, addToCart }) => {
+export const ProductCard = ({ product, isAddedtoCart, addToCart, removeFromCart}) => {
   const handleAddToCart = () => {
     addToCart(product);
   };
-  //const handleRemoveToCart = () => {};
+   const handleRemoveCart = () => {
+    removeFromCart(product);
+  };
+  
   return (
     <div className="product-card">
       <p>{`Product Name: ${product.name}`}</p>
@@ -15,9 +18,11 @@ export const ProductCard = ({ product, addToCart }) => {
         Add to Cart
       </button>
 
-      {/* <button className="cart-btn2" onClick={() => handleAddToCart(product.id)}>
-        Remove Add to Cart
-      </button> */}
+      {isAddedtoCart && (
+        <button className="cart-btn2" onClick={() => handleRemoveCart(product.id)}>
+        Remove From Cart
+      </button>
+      )}
     </div>
   );
 };
