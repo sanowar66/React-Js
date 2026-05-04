@@ -1,27 +1,41 @@
 .product-card {
-  background-color: rgb(140, 160, 95);
+  background-color: rgb(16, 66, 73);
+  color: whitesmoke;
   padding: 10px;
   border-radius: 20px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .cart-btn1 {
   background-color: rgb(243, 8, 8);
-  color: white;
+  color: rgb(250, 243, 243);
   border-radius: 10px;
   padding-bottom: 5px;
   padding-left: 16px;
   padding-top: 5px;
   padding-right: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .cart-btn2 {
-  background-color: rgb(5, 241, 56);
+  background-color: rgb(99, 156, 231);
   color: white;
   border-radius: 10px;
   padding-bottom: 5px;
   padding-left: 16px;
   padding-top: 5px;
   padding-right: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .text {
   margin: 0 10px; /* left-right space */
+}
+.cart-btn2:hover {
+  transform: translateY(-2px);
+  color: blueviolet;
+  background-color: aliceblue;
+}
+.cart-btn1:hover {
+  transform: translateY(-2px);
+  color: blueviolet;
+  background-color: aliceblue;
 }
