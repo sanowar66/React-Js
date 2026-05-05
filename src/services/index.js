@@ -1,1 +1,1 @@
-//here only the logic
+export * from './productServices'
