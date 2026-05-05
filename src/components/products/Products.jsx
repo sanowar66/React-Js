@@ -15,14 +15,15 @@ export const Products = () => {
 
   const addProductToCart = (product) => {
     if (productExistInCart(product.id)) {
-      return alert("Already added.");
+      alert("Already added.");
+      return;
     }
     setCart([...cart, product]);
   };
   const RemoveProductCart = (productId) => {
-  setCart(cart.filter((cartItem) => cartItem.id !== productId))
+    setCart(cart.filter((cartItem) => cartItem.id !== productId));
+    return;
   };
-  
 
   return (
     <div className="products">
